@@ -5,9 +5,8 @@
     font-family: 'Lexend', sans-serif;
 }
 body {
-    background-color: black;
-    color:azure;
-    /* font-family: 'Lexend', sans-serif; */
+    background-color: #030328;
+    color: #fff;
 }
 
 .logo {
@@ -53,10 +52,79 @@ width: 150px;
 height: 35px;
 border-radius: 25px;
 border: transparent;
+margin: 0;
 }
 
 .botao-assinar:hover{
     transition: .5s;
     color:#02021C;
     background-color: azure;
+}
+
+main{
+font-family: 'Girlroy', sans-serif;
+text-transform: uppercase;
+display: flex;
+flex-direction: column;    
+height: 94vh;
+justify-content: flex-end;
+align-items: center;
+}
+
+button{
+    background-color: #af42f8;
+    color: azure;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    height: 40px;
+    width: 180px;
+    border: transparent;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #af42f8;
+    transition: .3s; 
+}
+
+h2{
+    color: #f128e7;
+    font-size: 55px;
+    margin-bottom: -30px;
+    font-weight: bold;
+    }
+
+h1 {
+font-size: 80px;
+margin-bottom: -10px;
+}    
+
+h3{
+font-weight: 200;
+font-size: 34px;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+    text-transform: lowercase;
+    padding-bottom: 5vh;
+}
+.backvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.backvideo video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
