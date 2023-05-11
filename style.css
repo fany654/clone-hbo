@@ -16,8 +16,8 @@ body {
 
 header{
     background-color: #02021C;
-    width: 100%;
-    height: 6vh;
+    width: 100vw;
+    height: 7vh;
 
 
     display: flex;
@@ -127,4 +127,15 @@ p{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.video-gradient {
+    background: linear-gradient(to bottom, transparent 80%, #2C094696);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
 }
